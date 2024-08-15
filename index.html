@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho_menu">
+            <a class="cabecalho_menu_link" href="index.html">Home</a>
+            <a class="cabecalho_menu_link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao-conteudo">
             <h1 class="apresentacao-conteuto-titulo">
@@ -20,15 +25,21 @@
             </P>
 
             <div class="apresentacao-links">
-                <h2 class="apresentação-links-titulo">Acesse minhas redes:</h2>
-                <a class="apresentacao-links-link" href="https://www.instagram.com/dev_miguelito/">Instagram</a>
-                <a class="apresentacao-links-link" href="https://github.com/MiguelitoGO">Github</a>
+                <h2 class="apresentação-links-subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao-links-navegacao" href="https://github.com/MiguelitoGO">
+                   <img src="img/Logo Github.png" alt="logo-github"> Github</a>
+                <a class="apresentacao-links-navegacao" href="https://www.linkedin.com/in/fabiomgoliveira/">
+                    <img src="img/Logo linkedin.png" alt="logo-linkedin">Linkedin</a>
+                <a class="apresentacao-links-navegacao" href="https://www.twitch.tv/onicronly">
+                    <img src="img/Logo Twitch.png" alt="logo-Twitch"> Twitch</a>
             </div>
         </section>
 
-        <img src="dev.png" alt="foto do Fabio Miguel">
+        <img class="apresentacao-imagem" src="img/dev.png" alt="dev-site">
     </main>
 
-    <footer></footer>
+    <footer class="rodape">
+    <p>Desenvolvido por Fabio Miguel - Escola Alura</p>
+    </footer>
 </body>
 </html>
